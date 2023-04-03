@@ -52,7 +52,7 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         scrollView?.delegate = self
         self.setCustomStyle()
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.isNavigationBarHidden = true  // to hide navigation bar
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -194,6 +194,13 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         self.ticketCounter -= 1
         self.checkCounterRange(counter: self.ticketCounter)
     }
+    
+    @IBAction func proceedToNextAction(_ sender: Any) {
+        print("Button Pressed")
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TicketDataVC") as! TicketDataVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     
     func checkCounterRange(counter: Int){
         if counter > 10 || counter <= 0 {

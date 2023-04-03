@@ -39,22 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D4A40F3A-16E0-46D4-A81F-9C28A3E9A411"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "360play clone/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "setData(email:id:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F40E6825-3F35-4E8A-9684-365EEA6C0DC0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -244,14 +228,14 @@
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "FBBB246A-EC76-400E-A7CF-5F180564A6B8 - 192786e9c98393b0"
+                  uuid = "FBBB246A-EC76-400E-A7CF-5F180564A6B8 - 31474a86c6e4604c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_60play_clone.User.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;_60play_clone.User.CodingKeys&gt;"
                   moduleName = "360play clone"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankushsharma/Desktop/Swift%20Training/360play%20clone/360play%20clone/Model/UserAuthentication.swift"
+                  urlString = "file:///Users/ankushsharma/Desktop/360play-clone/360play%20clone/360play%20clone/Model/UserAuthentication.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "45"
@@ -259,14 +243,14 @@
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  uuid = "FBBB246A-EC76-400E-A7CF-5F180564A6B8 - b9aaab433376e03c"
+                  uuid = "FBBB246A-EC76-400E-A7CF-5F180564A6B8 - 91ca672c3c1113c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_60play_clone.User.CodingKeys.rawValue.getter : Swift.String"
                   moduleName = "360play clone"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankushsharma/Desktop/Swift%20Training/360play%20clone/360play%20clone/Model/UserAuthentication.swift"
+                  urlString = "file:///Users/ankushsharma/Desktop/360play-clone/360play%20clone/360play%20clone/Model/UserAuthentication.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "45"

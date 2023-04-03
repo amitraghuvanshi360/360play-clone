@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0223337129DAF64100559CE6 /* TicketDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223337029DAF64100559CE6 /* TicketDataVC.swift */; };
 		0235466329D4131600DC8F54 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466229D4131600DC8F54 /* APIManager.swift */; };
 		0235466629D416C000DC8F54 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466529D416C000DC8F54 /* Constant.swift */; };
 		0235466929D41CD700DC8F54 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466829D41CD700DC8F54 /* Payment.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0223337029DAF64100559CE6 /* TicketDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDataVC.swift; sourceTree = "<group>"; };
 		0235466229D4131600DC8F54 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		0235466529D416C000DC8F54 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0235466829D41CD700DC8F54 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				02EC4BF229D57C5300126034 /* CardViewController.swift */,
 				02EC4BF429D5AE5800126034 /* EntryViewController.swift */,
 				02EC4BF629D5AEA200126034 /* ExitViewController.swift */,
+				0223337029DAF64100559CE6 /* TicketDataVC.swift */,
 			);
 			path = "360play clone";
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				02EC4BF329D57C5300126034 /* CardViewController.swift in Sources */,
 				0278D53129D17E22006FF117 /* TicketBookingVC.swift in Sources */,
 				0278D50329D160F8006FF117 /* SceneDelegate.swift in Sources */,
+				0223337129DAF64100559CE6 /* TicketDataVC.swift in Sources */,
 				0244D34F29D6ED5D002822C3 /* Validate.swift in Sources */,
 				0244D34D29D6E4ED002822C3 /* UserAuthentication.swift in Sources */,
 				0235466929D41CD700DC8F54 /* Payment.swift in Sources */,

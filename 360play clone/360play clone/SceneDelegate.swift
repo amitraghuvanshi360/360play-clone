@@ -22,20 +22,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let userId = UserDefaults.standard.object(forKey: "userID")
         
-//        if userId != nil {
-//            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//            let mainViewController = storyboard.instantiateViewController(withIdentifier: "CustomTabBarVC")
-//            let navController = CustomNavigationVC(rootViewController: mainViewController)
-//
-//            window1.rootViewController = navController
-//
-//        } else {
+        if userId != nil {
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let mainViewController = storyboard.instantiateViewController(withIdentifier: "CustomTabBarVC")
+            let navController = CustomNavigationVC(rootViewController: mainViewController)
+
+            window1.rootViewController = navController
+
+        } else {
             let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let mainViewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
             let navController = CustomNavigationVC(rootViewController: mainViewController)
             window1.rootViewController = navController
             
-//        }
+        }
         self.window = window1
         window1.makeKeyAndVisible()
     }

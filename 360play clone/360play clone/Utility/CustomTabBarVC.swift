@@ -10,6 +10,8 @@ import UIKit
 
 class CustomTabBarVC: UITabBarController, UITabBarControllerDelegate {
     
+    var userObj: User?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
