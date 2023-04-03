@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D6D16FC472B88EFE65827FF12DA5D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */; };
+		285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3A5C5F9B9DDB0F0E163C27BC753A1D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3BF49E9E6023E8D9467957EEC9A25D40 /* Pods-360play cloneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBE5FC5272112590F4A8EC48CFC1B51 /* Pods-360play cloneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4197BE400418986FAB958DE4A8065D /* Pods-360play clone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E9222DBA528E7C6ECC0C71D158EC08 /* Pods-360play clone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44715963FF82B21D01A74F7B35D69AA4 /* Pods-360play clone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A163607EE5CA0D83757E5A0A3C15CE /* Pods-360play clone-dummy.m */; };
+		4AF3E02DB8F738D5C20B1173FF22F5EB /* Pods-360play clone-360play cloneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A503C6ABD0BC29F90DF5404F9F1E8AB /* Pods-360play clone-360play cloneUITests-dummy.m */; };
+		84792110A8598129933765C557B33844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		96DD02D885DF2C5AADA0758EE91465F7 /* Pods-360play clone-360play cloneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39682A08CFA48E94F2E7D02D6B7DED7A /* Pods-360play clone-360play cloneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */; };
+		F8B3E02F28510AD3ED72BD82A6FB6A7D /* Pods-360play cloneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92FACD40A972D748351EF67D877415 /* Pods-360play cloneTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1BFFCB612F3B8B4CB9AE035FEC6A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2E08C5AAE94884F50C1327C84844AE;
+			remoteInfo = "Pods-360play clone";
+		};
+		9B21D754F3E4F3D6346C54D3429B9445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		CDDE482515BF015CF66BCAD757D4B969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E65FB1B86A43DD4050BFFE0FC96BCF /* Pods-360play clone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-360play clone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05BA00E58BDD90D7BECF899E6F92A18F /* Pods-360play clone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play clone-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BF21EC33F87CD11AE169D5C83F55C0B /* Pods-360play clone-360play cloneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-360play clone-360play cloneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0F5220A6345E5825CC8A73C4F5921DD0 /* Pods-360play clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play clone.release.xcconfig"; sourceTree = "<group>"; };
+		1116D821E9359E1DF8189B0924A85632 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play clone-360play cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		22C7FE150BF909BF5DAEEE282125B103 /* Pods-360play clone-360play cloneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-360play clone-360play cloneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		280665C5F1B59B529D036F9CB260C20D /* Pods-360play clone */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-360play clone"; path = Pods_360play_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDF29F0D69FC8D03DB9BFE23D2793A0 /* Pods-360play cloneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play cloneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DBE5FC5272112590F4A8EC48CFC1B51 /* Pods-360play cloneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-360play cloneTests-umbrella.h"; sourceTree = "<group>"; };
+		30F3F9175A06A8F1F560B29A335BBCD9 /* Pods-360play cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		362E7EBC0B05F880CF6AC39CDFA67EB0 /* Pods-360play cloneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-360play cloneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39682A08CFA48E94F2E7D02D6B7DED7A /* Pods-360play clone-360play cloneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-360play clone-360play cloneUITests-umbrella.h"; sourceTree = "<group>"; };
+		4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		5A503C6ABD0BC29F90DF5404F9F1E8AB /* Pods-360play clone-360play cloneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-360play clone-360play cloneUITests-dummy.m"; sourceTree = "<group>"; };
+		5CCB10D8850C69F7676A714E76482159 /* Pods-360play clone-360play cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play clone-360play cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		64BF842459CD9D7C6F13D3649138FEEB /* Pods-360play cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77A163607EE5CA0D83757E5A0A3C15CE /* Pods-360play clone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-360play clone-dummy.m"; sourceTree = "<group>"; };
+		7EFD1CFCF872CEC46F8E7FBC7A552A02 /* Pods-360play clone-360play cloneUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play clone-360play cloneUITests-Info.plist"; sourceTree = "<group>"; };
+		84E9222DBA528E7C6ECC0C71D158EC08 /* Pods-360play clone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-360play clone-umbrella.h"; sourceTree = "<group>"; };
+		8C48BACD998D835A35FEEFE65A1BD117 /* Pods-360play cloneTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play cloneTests-Info.plist"; sourceTree = "<group>"; };
+		986344CCA8CF317B862A777498D182E2 /* Pods-360play clone-360play cloneUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-360play clone-360play cloneUITests"; path = Pods_360play_clone_360play_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D04F7F5641D36F2B2E61BF855AEBA03 /* Pods-360play clone-360play cloneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play clone-360play cloneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF56CED7B79BC62B1C553DD3A7408FE4 /* Pods-360play clone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-360play clone-frameworks.sh"; sourceTree = "<group>"; };
+		B6423C8C0AF03B5660D2A80A076DB8A3 /* Pods-360play clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360play clone.debug.xcconfig"; sourceTree = "<group>"; };
+		BE92FACD40A972D748351EF67D877415 /* Pods-360play cloneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-360play cloneTests-dummy.m"; sourceTree = "<group>"; };
+		BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3E9E29169217C078AE3CD4AC2FCC39F /* Pods-360play clone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360play clone-Info.plist"; sourceTree = "<group>"; };
+		D67EBE134DD376FA88C6B4F896949F6F /* Pods-360play clone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-360play clone.modulemap"; sourceTree = "<group>"; };
+		DFBF2EC6227198B7F206FE0BD161AC5A /* Pods-360play clone-360play cloneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-360play clone-360play cloneUITests.modulemap"; sourceTree = "<group>"; };
+		E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB1B326612D170427B0E84A7DCC54E2 /* Pods-360play cloneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-360play cloneTests.modulemap"; sourceTree = "<group>"; };
+		FEBC7E61E66887D666C0DAB11380BEA3 /* Pods-360play cloneTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-360play cloneTests"; path = Pods_360play_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2167FE49C940B4CF22C4A858E9D39D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84792110A8598129933765C557B33844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */,
+				285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B1189C058E9402142F675300F39035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5C5F9B9DDB0F0E163C27BC753A1D16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAFDCB8E06135F122A7DDE4FBA2CCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D6D16FC472B88EFE65827FF12DA5D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4304240AA3F97B8DA63732BED71C92CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */,
+				562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */,
+				5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */,
+				F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */,
+				1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */,
+				C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */,
+				BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60E09F58A4B6EF1F34AC349248B764C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6265320A76B2C0232B54CF91BEA7DBBB /* Pods-360play clone-360play cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF2EC6227198B7F206FE0BD161AC5A /* Pods-360play clone-360play cloneUITests.modulemap */,
+				22C7FE150BF909BF5DAEEE282125B103 /* Pods-360play clone-360play cloneUITests-acknowledgements.markdown */,
+				9D04F7F5641D36F2B2E61BF855AEBA03 /* Pods-360play clone-360play cloneUITests-acknowledgements.plist */,
+				5A503C6ABD0BC29F90DF5404F9F1E8AB /* Pods-360play clone-360play cloneUITests-dummy.m */,
+				0BF21EC33F87CD11AE169D5C83F55C0B /* Pods-360play clone-360play cloneUITests-frameworks.sh */,
+				7EFD1CFCF872CEC46F8E7FBC7A552A02 /* Pods-360play clone-360play cloneUITests-Info.plist */,
+				39682A08CFA48E94F2E7D02D6B7DED7A /* Pods-360play clone-360play cloneUITests-umbrella.h */,
+				1116D821E9359E1DF8189B0924A85632 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */,
+				5CCB10D8850C69F7676A714E76482159 /* Pods-360play clone-360play cloneUITests.release.xcconfig */,
+			);
+			name = "Pods-360play clone-360play cloneUITests";
+			path = "Target Support Files/Pods-360play clone-360play cloneUITests";
+			sourceTree = "<group>";
+		};
+		A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */,
+				4304240AA3F97B8DA63732BED71C92CD /* Support Files */,
+			);
+			name = iOSDropDown;
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		AFAA474B5E04210BEA1133E49A979DE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3805B26DEB9371771899EEBCB980E27 /* Pods-360play clone */,
+				6265320A76B2C0232B54CF91BEA7DBBB /* Pods-360play clone-360play cloneUITests */,
+				FB483F3C99DB87FF23F3E8281424503E /* Pods-360play cloneTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1C079EDCDDF5A81E36D16A6313446BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
+				280665C5F1B59B529D036F9CB260C20D /* Pods-360play clone */,
+				986344CCA8CF317B862A777498D182E2 /* Pods-360play clone-360play cloneUITests */,
+				FEBC7E61E66887D666C0DAB11380BEA3 /* Pods-360play cloneTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				60E09F58A4B6EF1F34AC349248B764C0 /* Pods */,
+				C1C079EDCDDF5A81E36D16A6313446BA /* Products */,
+				AFAA474B5E04210BEA1133E49A979DE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3805B26DEB9371771899EEBCB980E27 /* Pods-360play clone */ = {
+			isa = PBXGroup;
+			children = (
+				D67EBE134DD376FA88C6B4F896949F6F /* Pods-360play clone.modulemap */,
+				03E65FB1B86A43DD4050BFFE0FC96BCF /* Pods-360play clone-acknowledgements.markdown */,
+				05BA00E58BDD90D7BECF899E6F92A18F /* Pods-360play clone-acknowledgements.plist */,
+				77A163607EE5CA0D83757E5A0A3C15CE /* Pods-360play clone-dummy.m */,
+				AF56CED7B79BC62B1C553DD3A7408FE4 /* Pods-360play clone-frameworks.sh */,
+				D3E9E29169217C078AE3CD4AC2FCC39F /* Pods-360play clone-Info.plist */,
+				84E9222DBA528E7C6ECC0C71D158EC08 /* Pods-360play clone-umbrella.h */,
+				B6423C8C0AF03B5660D2A80A076DB8A3 /* Pods-360play clone.debug.xcconfig */,
+				0F5220A6345E5825CC8A73C4F5921DD0 /* Pods-360play clone.release.xcconfig */,
+			);
+			name = "Pods-360play clone";
+			path = "Target Support Files/Pods-360play clone";
+			sourceTree = "<group>";
+		};
+		FB483F3C99DB87FF23F3E8281424503E /* Pods-360play cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1B326612D170427B0E84A7DCC54E2 /* Pods-360play cloneTests.modulemap */,
+				362E7EBC0B05F880CF6AC39CDFA67EB0 /* Pods-360play cloneTests-acknowledgements.markdown */,
+				2CDF29F0D69FC8D03DB9BFE23D2793A0 /* Pods-360play cloneTests-acknowledgements.plist */,
+				BE92FACD40A972D748351EF67D877415 /* Pods-360play cloneTests-dummy.m */,
+				8C48BACD998D835A35FEEFE65A1BD117 /* Pods-360play cloneTests-Info.plist */,
+				2DBE5FC5272112590F4A8EC48CFC1B51 /* Pods-360play cloneTests-umbrella.h */,
+				64BF842459CD9D7C6F13D3649138FEEB /* Pods-360play cloneTests.debug.xcconfig */,
+				30F3F9175A06A8F1F560B29A335BBCD9 /* Pods-360play cloneTests.release.xcconfig */,
+			);
+			name = "Pods-360play cloneTests";
+			path = "Target Support Files/Pods-360play cloneTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A215B6F268BFADC9BA32A3ED0A4D686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF49E9E6023E8D9467957EEC9A25D40 /* Pods-360play cloneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DB51130AA6E364879E57A95989507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4197BE400418986FAB958DE4A8065D /* Pods-360play clone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA2D0D6CD6C2B19FF1CEFC82949DB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DD02D885DF2C5AADA0758EE91465F7 /* Pods-360play clone-360play cloneUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */,
+				C007FF516C6F3115BB3A2EF5261492C8 /* Sources */,
+				757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */,
+				A637E6D62C8F056CC40DC1E80705FA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B4849116A4DA865E99D40631880FCC /* Pods-360play clone-360play cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44709A9ACB340B14D85A017229D57630 /* Build configuration list for PBXNativeTarget "Pods-360play clone-360play cloneUITests" */;
+			buildPhases = (
+				D3FA2D0D6CD6C2B19FF1CEFC82949DB7 /* Headers */,
+				FBAAE463B9AAF67CE22D8BF5CA6359CD /* Sources */,
+				F5B1189C058E9402142F675300F39035 /* Frameworks */,
+				1B59536718708553832ED70B32CE1580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373D9AE7D3AB843979966C045A4516E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-360play clone-360play cloneUITests";
+			productName = Pods_360play_clone_360play_cloneUITests;
+			productReference = 986344CCA8CF317B862A777498D182E2 /* Pods-360play clone-360play cloneUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC2E08C5AAE94884F50C1327C84844AE /* Pods-360play clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EDEA33AB57D76ADBC06324DC532A42 /* Build configuration list for PBXNativeTarget "Pods-360play clone" */;
+			buildPhases = (
+				A71DB51130AA6E364879E57A95989507 /* Headers */,
+				7A4560F38B8C10460803524BF17FC175 /* Sources */,
+				2167FE49C940B4CF22C4A858E9D39D81 /* Frameworks */,
+				BB987CD7DCB1603B0879E281884A7A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F6915F92CAB24EBF70866440C26EF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-360play clone";
+			productName = Pods_360play_clone;
+			productReference = 280665C5F1B59B529D036F9CB260C20D /* Pods-360play clone */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6CFC39282278F02D59DC665ED4D37C8 /* Pods-360play cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B56A674C7DC04264E8E4C6529C78E0 /* Build configuration list for PBXNativeTarget "Pods-360play cloneTests" */;
+			buildPhases = (
+				2A215B6F268BFADC9BA32A3ED0A4D686 /* Headers */,
+				D8AA53D6A5F8B7DA54725EEA8AC0B7A7 /* Sources */,
+				FDAFDCB8E06135F122A7DDE4FBA2CCC1 /* Frameworks */,
+				05E89B6058CE8746E1A7F20DE55869E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7818F73A82BD6D639C13CDE5E9ACB33 /* PBXTargetDependency */,
+			);
+			name = "Pods-360play cloneTests";
+			productName = Pods_360play_cloneTests;
+			productReference = FEBC7E61E66887D666C0DAB11380BEA3 /* Pods-360play cloneTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1C079EDCDDF5A81E36D16A6313446BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				BC2E08C5AAE94884F50C1327C84844AE /* Pods-360play clone */,
+				82B4849116A4DA865E99D40631880FCC /* Pods-360play clone-360play cloneUITests */,
+				E6CFC39282278F02D59DC665ED4D37C8 /* Pods-360play cloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E89B6058CE8746E1A7F20DE55869E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B59536718708553832ED70B32CE1580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A637E6D62C8F056CC40DC1E80705FA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB987CD7DCB1603B0879E281884A7A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4560F38B8C10460803524BF17FC175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44715963FF82B21D01A74F7B35D69AA4 /* Pods-360play clone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C007FF516C6F3115BB3A2EF5261492C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */,
+				1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AA53D6A5F8B7DA54725EEA8AC0B7A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3E02F28510AD3ED72BD82A6FB6A7D /* Pods-360play cloneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAAE463B9AAF67CE22D8BF5CA6359CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF3E02DB8F738D5C20B1173FF22F5EB /* Pods-360play clone-360play cloneUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373D9AE7D3AB843979966C045A4516E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = CDDE482515BF015CF66BCAD757D4B969 /* PBXContainerItemProxy */;
+		};
+		B7818F73A82BD6D639C13CDE5E9ACB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-360play clone";
+			target = BC2E08C5AAE94884F50C1327C84844AE /* Pods-360play clone */;
+			targetProxy = 0E1BFFCB612F3B8B4CB9AE035FEC6A08 /* PBXContainerItemProxy */;
+		};
+		C8F6915F92CAB24EBF70866440C26EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 9B21D754F3E4F3D6346C54D3429B9445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		139E73F87E5F4500A172FC2E8F66F89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DD6CA905294D00F332147A9777AF19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6423C8C0AF03B5660D2A80A076DB8A3 /* Pods-360play clone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play clone/Pods-360play clone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play clone/Pods-360play clone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F02CEBC599DC0B5AB0CF74EF7DCE1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5220A6345E5825CC8A73C4F5921DD0 /* Pods-360play clone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play clone/Pods-360play clone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play clone/Pods-360play clone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B59267D040002E610D0763BA43A026F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1116D821E9359E1DF8189B0924A85632 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CC1E8F1E84EDA2EABD39FABA3D42692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BF842459CD9D7C6F13D3649138FEEB /* Pods-360play cloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F2A8D836447B3FE60CD3108B1EE4B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCB10D8850C69F7676A714E76482159 /* Pods-360play clone-360play cloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD3DF22C06A75D4818072451B58CE4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA228880F2390073A1CB5083E8A3E1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3F9175A06A8F1F560B29A335BBCD9 /* Pods-360play cloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B56A674C7DC04264E8E4C6529C78E0 /* Build configuration list for PBXNativeTarget "Pods-360play cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC1E8F1E84EDA2EABD39FABA3D42692 /* Debug */,
+				EA228880F2390073A1CB5083E8A3E1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44709A9ACB340B14D85A017229D57630 /* Build configuration list for PBXNativeTarget "Pods-360play clone-360play cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B59267D040002E610D0763BA43A026F /* Debug */,
+				8F2A8D836447B3FE60CD3108B1EE4B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EDEA33AB57D76ADBC06324DC532A42 /* Build configuration list for PBXNativeTarget "Pods-360play clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD6CA905294D00F332147A9777AF19B /* Debug */,
+				1F02CEBC599DC0B5AB0CF74EF7DCE1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139E73F87E5F4500A172FC2E8F66F89D /* Debug */,
+				BD3DF22C06A75D4818072451B58CE4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

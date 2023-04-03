@@ -1,0 +1,6 @@
+framework module Pods_360play_cloneTests {
+  umbrella header "Pods-360play cloneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">360Play</string>
+    <string name="login">Login</string>
+    <string name="enteremail">Enter Email Address</string>
+    <string name="enterpassword">Password</string>
+    <string name="conitnue">Continue</string>
+    <string name="book">Book</string>
+    <string name="customer">Customer</string>
+    <string name="email">Email Id</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="thrityminutes">30 minutes</string>
+    <string name="onehour">1 Hour</string>
+    <string name="singlepax">Single PAX</string>
+    <string name="familypax">Family PAX</string>
+    <string name="numberoftickets">Number of Ticket</string>
+    <string name="numberofpeople">0 Ticket</string>
+    <string name="confirm">Confirm</string>
+    <string name="username">Ahmed Hamid Hassan</string>
+    <string name="phonenumber">+97450324433</string>
+    <string name="useremail">ahmed@360-nautica.com</string>
+    <string name="emailtitle">Email</string>
+    <string name="amount">Amount</string>
+    <string name="qarprice">QAR 60/-</string>
+    <string name="gateentry">Gate Entry</string>
+    <string name="search">Search</string>
+    <string name="viewstatus">View Status</string>
+    <string name="gateexist">Gate Exit</string>
+    <string name="scanaanotherbrand">Scan another wristbrand</string>
+    <string name="additionalamount">Additional Amount for extra time</string>
+    <string name="exit">Exit</string>
+    <string name="entry">Entry</string>
+    <string name="name">Name</string>
+    <string name="ahmedkusasri">Ahmed Hassan</string>
+    <string name="contact">Contact</string>
+    <string name="phonecall">+9746743787848</string>
+    <string name="paxtype">Pax Type</string>
+    <string name="entrytime">Entry Time</string>
+    <string name="hours">1 Hour</string>
+    <string name="tickets">Tickets</string>
+    <string name="current">Current Time :</string>
+    <string name="time">5:30 pm</string>
+    <string name="startnow">START NOW</string>
+    <string name="gamename">Game Name</string>
+    <string name="tabtoscan">TAB TO SCAN</string>
+    <string name="servicetype">Service Type</string>
+    <string name="duration">Duration</string>
+    <string name="retry">Retry</string>
+    <string name="card">Card</string>
+    <string name="bookinganstartgame">Book And Enter In Game</string>
+    <string name="additonalmobilenumber">Additional Mobile Number</string>
+    <string name="addquid">QID</string>
+    <string name="gender">Gender</string>
+    <string name="paymentmode">Payment Mode</string>
+    <string name="playcard">Play Card</string>
+    <string name="phonetittle">Phone</string>
+    <string name="register">REGISTER</string>
+    <string name="enteramount">Enter Amount</string>
+    <string name="recharge">Recharge</string>
+    <string name="booking">Booking</string>
+    <string name="payviacard">PAY VIA CARD</string>
+    <string name="cardscanner">Card Scanner</string>
+    <string name="ridenotstarted">Note : Your ride is not started yet</string>
+    <string name="ridenotcomplete">Note : Your ride is not finished yet</string>
+    <string name="ridealreadycompleted">Note : Your ride is already completed</string>
+    <string name="noticemessage">Please Note : </string>
+    <string name="multipledots">...................................................................................................</string>
+    <string name="cuastomercopy">Customer Copy </string>
+    <string name="seatformentioneddate">Please Note : \nThe ticket is only valid on the mentioned \n
+                        date. The customer should retain \n
+                        this slip during activity time.</string>
+
+    <string name="seatofrmentioneddateandtime">Please Note :\nThe ticket is only valid on the mentioned\n
+                        date and time. The customer should \n retain this slip during activity time.</string>
+
+
+    <string name="currency">&#160;&#160;QAR</string>
+
+    <string-array name="countries_array">
+        <item>Select Nationality</item>
+        <item>India</item>
+        <item>Qatar</item>
+        <item>Philippines</item>
+        <item>Egypt</item>
+        <item>Sri Lanka</item>
+        <item>Omani</item>
+        <item>Bahraini</item>
+        <item>Afghan</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>Argentine</item>
+        <item>Argentinian</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Bangladeshi</item>
+        <item>Belgian</item>
+        <item>Bolivian</item>
+        <item>Batswana</item>
+        <item>Brazilian</item>
+        <item>Bulgarian</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Colombian</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dominican</item>
+        <item>Ecuadorian</item>
+        <item>Salvadorian</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Fijian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ghanaian</item>
+        <item>Greek</item>
+        <item>Guatemalan</item>
+        <item>Haitian</item>
+        <item>Honduran</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kenyan</item>
+        <item>Kuwaiti</item>
+        <item>Lao</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Libyan</item>
+        <item>Lithuanian</item>
+        <item>Malaysian</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Mexican</item>
+        <item>Mongolian</item>
+        <item>Moroccan</item>
+        <item>Mozambican</item>
+        <item>Namibian</item>
+        <item>Nepalese</item>
+        <item>Dutch</item>
+        <item>New Zealand</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Norwegian</item>
+        <item>Pakistani</item>
+        <item>Panamanian</item>
+        <item>Sudan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Saudi</item>
+        <item>Scottish</item>
+        <item>Senegalese</item>
+        <item>Serbian</item>
+        <item>Singaporean</item>
+        <item>Slovak</item>
+        <item>South African</item>
+        <item>Korean</item>
+        <item>Spanish</item>
+        <item>Sudanese</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Taiwanese</item>
+        <item>Tajikistani</item>
+        <item>Thai</item>
+        <item>Tongan</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Emirati</item>
+        <item>British</item>
+        <item>American</item>
+        <item>Uruguayan</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+
+
+    <string-array name="agegroup_array">
+        <item>Select Age Group</item>
+        <item>Age (0-5)</item>
+        <item>Age (6-10)</item>
+        <item>Age (11-15)</item>
+        <item>Age (16-20)</item>
+        <item>Age (21-25)</item>
+        <item>Age (26-30)</item>
+        <item>Age (31-35)</item>
+        <item>Age (36-40)</item>
+        <item>Age (Above 40)</item>
+
+    </string-array>
+
+
+</resources>

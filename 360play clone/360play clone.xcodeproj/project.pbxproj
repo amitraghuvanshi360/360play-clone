@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0235466329D4131600DC8F54 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466229D4131600DC8F54 /* APIManager.swift */; };
+		0235466629D416C000DC8F54 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466529D416C000DC8F54 /* Constant.swift */; };
+		0235466929D41CD700DC8F54 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235466829D41CD700DC8F54 /* Payment.swift */; };
+		0244D34D29D6E4ED002822C3 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D34C29D6E4ED002822C3 /* UserAuthentication.swift */; };
+		0244D34F29D6ED5D002822C3 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D34E29D6ED5D002822C3 /* Validate.swift */; };
+		025772B429D2C87600214213 /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025772B329D2C87600214213 /* CustomTabBarVC.swift */; };
+		0278D50129D160F8006FF117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D50029D160F8006FF117 /* AppDelegate.swift */; };
+		0278D50329D160F8006FF117 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D50229D160F8006FF117 /* SceneDelegate.swift */; };
+		0278D50529D160F8006FF117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D50429D160F8006FF117 /* ViewController.swift */; };
+		0278D50829D160F8006FF117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0278D50629D160F8006FF117 /* Main.storyboard */; };
+		0278D50A29D160FC006FF117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0278D50929D160FC006FF117 /* Assets.xcassets */; };
+		0278D50D29D160FC006FF117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0278D50B29D160FC006FF117 /* LaunchScreen.storyboard */; };
+		0278D51829D160FC006FF117 /* _60play_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D51729D160FC006FF117 /* _60play_cloneTests.swift */; };
+		0278D52229D160FC006FF117 /* _60play_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D52129D160FC006FF117 /* _60play_cloneUITests.swift */; };
+		0278D52429D160FC006FF117 /* _60play_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D52329D160FC006FF117 /* _60play_cloneUITestsLaunchTests.swift */; };
+		0278D53129D17E22006FF117 /* TicketBookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278D53029D17E22006FF117 /* TicketBookingVC.swift */; };
+		02B85E1E29DAB5C7004A761C /* CustomNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B85E1D29DAB5C7004A761C /* CustomNavigationVC.swift */; };
+		02EC4BF329D57C5300126034 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF229D57C5300126034 /* CardViewController.swift */; };
+		02EC4BF529D5AE5800126034 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF429D5AE5800126034 /* EntryViewController.swift */; };
+		02EC4BF729D5AEA200126034 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF629D5AEA200126034 /* ExitViewController.swift */; };
+		02EC4BF929D5BA7000126034 /* AgeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF829D5BA7000126034 /* AgeModel.swift */; };
+		02EC4BFB29D5BB5F00126034 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BFA29D5BB5F00126034 /* GameModel.swift */; };
+		8C56820AA0F3DB1E4532AEAD /* Pods_360play_clone_360play_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459B095F0720A2D2723E5245 /* Pods_360play_clone_360play_cloneUITests.framework */; };
+		BEA266C2746BA225AF5EA6AF /* Pods_360play_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B637900F03329E04082898C5 /* Pods_360play_cloneTests.framework */; };
+		EAC9C6E12F5048C6F56FF618 /* Pods_360play_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4703BD4F9D1018C87240EB /* Pods_360play_clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0278D51429D160FC006FF117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0278D4F529D160F8006FF117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0278D4FC29D160F8006FF117;
+			remoteInfo = "360play clone";
+		};
+		0278D51E29D160FC006FF117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0278D4F529D160F8006FF117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0278D4FC29D160F8006FF117;
+			remoteInfo = "360play clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0235466229D4131600DC8F54 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0235466529D416C000DC8F54 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0235466829D41CD700DC8F54 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		0244D34C29D6E4ED002822C3 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		0244D34E29D6ED5D002822C3 /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
+		025772B329D2C87600214213 /* CustomTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		0278D4FD29D160F8006FF117 /* 360play clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "360play clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0278D50029D160F8006FF117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0278D50229D160F8006FF117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0278D50429D160F8006FF117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0278D50729D160F8006FF117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0278D50929D160FC006FF117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0278D50C29D160FC006FF117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0278D50E29D160FC006FF117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0278D51329D160FC006FF117 /* 360play cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "360play cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0278D51729D160FC006FF117 /* _60play_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _60play_cloneTests.swift; sourceTree = "<group>"; };
+		0278D51D29D160FC006FF117 /* 360play cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "360play cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0278D52129D160FC006FF117 /* _60play_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _60play_cloneUITests.swift; sourceTree = "<group>"; };
+		0278D52329D160FC006FF117 /* _60play_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _60play_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0278D53029D17E22006FF117 /* TicketBookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingVC.swift; sourceTree = "<group>"; };
+		02B85E1D29DAB5C7004A761C /* CustomNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationVC.swift; sourceTree = "<group>"; };
+		02EC4BF229D57C5300126034 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		02EC4BF429D5AE5800126034 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		02EC4BF629D5AEA200126034 /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
+		02EC4BF829D5BA7000126034 /* AgeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeModel.swift; sourceTree = "<group>"; };
+		02EC4BFA29D5BB5F00126034 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		1B7C92971E4F073386676038 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone-360play cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E8F41169E6A8CC3CF6FF5CD /* Pods-360play clone-360play cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone-360play cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		459B095F0720A2D2723E5245 /* Pods_360play_clone_360play_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360play_clone_360play_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A027E76AFFF490463F7F4D /* Pods-360play clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone.release.xcconfig"; path = "Target Support Files/Pods-360play clone/Pods-360play clone.release.xcconfig"; sourceTree = "<group>"; };
+		5E4703BD4F9D1018C87240EB /* Pods_360play_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360play_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD400F0ACE6953EBE6256D8 /* Pods-360play cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B637900F03329E04082898C5 /* Pods_360play_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360play_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F099280A1878BAFD275D302F /* Pods-360play clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone.debug.xcconfig"; path = "Target Support Files/Pods-360play clone/Pods-360play clone.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1189414E7771F83A9EB251 /* Pods-360play cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play cloneTests.release.xcconfig"; path = "Target Support Files/Pods-360play cloneTests/Pods-360play cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0278D4FA29D160F8006FF117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC9C6E12F5048C6F56FF618 /* Pods_360play_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D51029D160FC006FF117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA266C2746BA225AF5EA6AF /* Pods_360play_cloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D51A29D160FC006FF117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C56820AA0F3DB1E4532AEAD /* Pods_360play_clone_360play_cloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0235466129D412E100DC8F54 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0235466229D4131600DC8F54 /* APIManager.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		0235466429D4169200DC8F54 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				0235466529D416C000DC8F54 /* Constant.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		0235466729D41CC400DC8F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0235466829D41CD700DC8F54 /* Payment.swift */,
+				02EC4BF829D5BA7000126034 /* AgeModel.swift */,
+				02EC4BFA29D5BB5F00126034 /* GameModel.swift */,
+				0244D34C29D6E4ED002822C3 /* UserAuthentication.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0278D4F429D160F8006FF117 = {
+			isa = PBXGroup;
+			children = (
+				0278D4FF29D160F8006FF117 /* 360play clone */,
+				0278D51629D160FC006FF117 /* 360play cloneTests */,
+				0278D52029D160FC006FF117 /* 360play cloneUITests */,
+				0278D4FE29D160F8006FF117 /* Products */,
+				096A0390BD27565665A9830A /* Pods */,
+				670F92CBBA99760D91D1FDCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0278D4FE29D160F8006FF117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0278D4FD29D160F8006FF117 /* 360play clone.app */,
+				0278D51329D160FC006FF117 /* 360play cloneTests.xctest */,
+				0278D51D29D160FC006FF117 /* 360play cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0278D4FF29D160F8006FF117 /* 360play clone */ = {
+			isa = PBXGroup;
+			children = (
+				0235466729D41CC400DC8F54 /* Model */,
+				0235466429D4169200DC8F54 /* Global */,
+				0235466129D412E100DC8F54 /* API Manager */,
+				0278D53229D19ADC006FF117 /* Utility */,
+				0278D50029D160F8006FF117 /* AppDelegate.swift */,
+				0278D50229D160F8006FF117 /* SceneDelegate.swift */,
+				0278D50429D160F8006FF117 /* ViewController.swift */,
+				0278D50629D160F8006FF117 /* Main.storyboard */,
+				0278D50929D160FC006FF117 /* Assets.xcassets */,
+				0278D50B29D160FC006FF117 /* LaunchScreen.storyboard */,
+				0278D50E29D160FC006FF117 /* Info.plist */,
+				0278D53029D17E22006FF117 /* TicketBookingVC.swift */,
+				02EC4BF229D57C5300126034 /* CardViewController.swift */,
+				02EC4BF429D5AE5800126034 /* EntryViewController.swift */,
+				02EC4BF629D5AEA200126034 /* ExitViewController.swift */,
+			);
+			path = "360play clone";
+			sourceTree = "<group>";
+		};
+		0278D51629D160FC006FF117 /* 360play cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				0278D51729D160FC006FF117 /* _60play_cloneTests.swift */,
+			);
+			path = "360play cloneTests";
+			sourceTree = "<group>";
+		};
+		0278D52029D160FC006FF117 /* 360play cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0278D52129D160FC006FF117 /* _60play_cloneUITests.swift */,
+				0278D52329D160FC006FF117 /* _60play_cloneUITestsLaunchTests.swift */,
+			);
+			path = "360play cloneUITests";
+			sourceTree = "<group>";
+		};
+		0278D53229D19ADC006FF117 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				025772B329D2C87600214213 /* CustomTabBarVC.swift */,
+				0244D34E29D6ED5D002822C3 /* Validate.swift */,
+				02B85E1D29DAB5C7004A761C /* CustomNavigationVC.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		096A0390BD27565665A9830A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F099280A1878BAFD275D302F /* Pods-360play clone.debug.xcconfig */,
+				48A027E76AFFF490463F7F4D /* Pods-360play clone.release.xcconfig */,
+				1B7C92971E4F073386676038 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */,
+				3E8F41169E6A8CC3CF6FF5CD /* Pods-360play clone-360play cloneUITests.release.xcconfig */,
+				6BD400F0ACE6953EBE6256D8 /* Pods-360play cloneTests.debug.xcconfig */,
+				FD1189414E7771F83A9EB251 /* Pods-360play cloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		670F92CBBA99760D91D1FDCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4703BD4F9D1018C87240EB /* Pods_360play_clone.framework */,
+				459B095F0720A2D2723E5245 /* Pods_360play_clone_360play_cloneUITests.framework */,
+				B637900F03329E04082898C5 /* Pods_360play_cloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0278D4FC29D160F8006FF117 /* 360play clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0278D52729D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play clone" */;
+			buildPhases = (
+				94CBAD17140B013C3F1AB9A8 /* [CP] Check Pods Manifest.lock */,
+				0278D4F929D160F8006FF117 /* Sources */,
+				0278D4FA29D160F8006FF117 /* Frameworks */,
+				0278D4FB29D160F8006FF117 /* Resources */,
+				9F10EA13354E4A752F7B79C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "360play clone";
+			productName = "360play clone";
+			productReference = 0278D4FD29D160F8006FF117 /* 360play clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0278D51229D160FC006FF117 /* 360play cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0278D52A29D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play cloneTests" */;
+			buildPhases = (
+				C905BF17FD7DAC35BBB2C991 /* [CP] Check Pods Manifest.lock */,
+				0278D50F29D160FC006FF117 /* Sources */,
+				0278D51029D160FC006FF117 /* Frameworks */,
+				0278D51129D160FC006FF117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0278D51529D160FC006FF117 /* PBXTargetDependency */,
+			);
+			name = "360play cloneTests";
+			productName = "360play cloneTests";
+			productReference = 0278D51329D160FC006FF117 /* 360play cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0278D51C29D160FC006FF117 /* 360play cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0278D52D29D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play cloneUITests" */;
+			buildPhases = (
+				CC09BBCD44AC597A894C6C32 /* [CP] Check Pods Manifest.lock */,
+				0278D51929D160FC006FF117 /* Sources */,
+				0278D51A29D160FC006FF117 /* Frameworks */,
+				0278D51B29D160FC006FF117 /* Resources */,
+				BA4323F82C288A1A765B01ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0278D51F29D160FC006FF117 /* PBXTargetDependency */,
+			);
+			name = "360play cloneUITests";
+			productName = "360play cloneUITests";
+			productReference = 0278D51D29D160FC006FF117 /* 360play cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0278D4F529D160F8006FF117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0278D4FC29D160F8006FF117 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0278D51229D160FC006FF117 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0278D4FC29D160F8006FF117;
+					};
+					0278D51C29D160FC006FF117 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0278D4FC29D160F8006FF117;
+					};
+				};
+			};
+			buildConfigurationList = 0278D4F829D160F8006FF117 /* Build configuration list for PBXProject "360play clone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0278D4F429D160F8006FF117;
+			productRefGroup = 0278D4FE29D160F8006FF117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0278D4FC29D160F8006FF117 /* 360play clone */,
+				0278D51229D160FC006FF117 /* 360play cloneTests */,
+				0278D51C29D160FC006FF117 /* 360play cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0278D4FB29D160F8006FF117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0278D50D29D160FC006FF117 /* LaunchScreen.storyboard in Resources */,
+				0278D50A29D160FC006FF117 /* Assets.xcassets in Resources */,
+				0278D50829D160F8006FF117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D51129D160FC006FF117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D51B29D160FC006FF117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94CBAD17140B013C3F1AB9A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360play clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F10EA13354E4A752F7B79C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-360play clone/Pods-360play clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-360play clone/Pods-360play clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-360play clone/Pods-360play clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4323F82C288A1A765B01ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C905BF17FD7DAC35BBB2C991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360play cloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC09BBCD44AC597A894C6C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360play clone-360play cloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0278D4F929D160F8006FF117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0235466629D416C000DC8F54 /* Constant.swift in Sources */,
+				02EC4BF529D5AE5800126034 /* EntryViewController.swift in Sources */,
+				0235466329D4131600DC8F54 /* APIManager.swift in Sources */,
+				025772B429D2C87600214213 /* CustomTabBarVC.swift in Sources */,
+				0278D50529D160F8006FF117 /* ViewController.swift in Sources */,
+				02EC4BF729D5AEA200126034 /* ExitViewController.swift in Sources */,
+				0278D50129D160F8006FF117 /* AppDelegate.swift in Sources */,
+				02B85E1E29DAB5C7004A761C /* CustomNavigationVC.swift in Sources */,
+				02EC4BF329D57C5300126034 /* CardViewController.swift in Sources */,
+				0278D53129D17E22006FF117 /* TicketBookingVC.swift in Sources */,
+				0278D50329D160F8006FF117 /* SceneDelegate.swift in Sources */,
+				0244D34F29D6ED5D002822C3 /* Validate.swift in Sources */,
+				0244D34D29D6E4ED002822C3 /* UserAuthentication.swift in Sources */,
+				0235466929D41CD700DC8F54 /* Payment.swift in Sources */,
+				02EC4BF929D5BA7000126034 /* AgeModel.swift in Sources */,
+				02EC4BFB29D5BB5F00126034 /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D50F29D160FC006FF117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0278D51829D160FC006FF117 /* _60play_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0278D51929D160FC006FF117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0278D52429D160FC006FF117 /* _60play_cloneUITestsLaunchTests.swift in Sources */,
+				0278D52229D160FC006FF117 /* _60play_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0278D51529D160FC006FF117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0278D4FC29D160F8006FF117 /* 360play clone */;
+			targetProxy = 0278D51429D160FC006FF117 /* PBXContainerItemProxy */;
+		};
+		0278D51F29D160FC006FF117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0278D4FC29D160F8006FF117 /* 360play clone */;
+			targetProxy = 0278D51E29D160FC006FF117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0278D50629D160F8006FF117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0278D50729D160F8006FF117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0278D50B29D160FC006FF117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0278D50C29D160FC006FF117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0278D52529D160FC006FF117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0278D52629D160FC006FF117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0278D52829D160FC006FF117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F099280A1878BAFD275D302F /* Pods-360play clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "360play clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0278D52929D160FC006FF117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A027E76AFFF490463F7F4D /* Pods-360play clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "360play clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0278D52B29D160FC006FF117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD400F0ACE6953EBE6256D8 /* Pods-360play cloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360play clone.app/360play clone";
+			};
+			name = Debug;
+		};
+		0278D52C29D160FC006FF117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1189414E7771F83A9EB251 /* Pods-360play cloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360play clone.app/360play clone";
+			};
+			name = Release;
+		};
+		0278D52E29D160FC006FF117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7C92971E4F073386676038 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "360play clone";
+			};
+			name = Debug;
+		};
+		0278D52F29D160FC006FF117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8F41169E6A8CC3CF6FF5CD /* Pods-360play clone-360play cloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN84GS2Q4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.-60play-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "360play clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0278D4F829D160F8006FF117 /* Build configuration list for PBXProject "360play clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0278D52529D160FC006FF117 /* Debug */,
+				0278D52629D160FC006FF117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0278D52729D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0278D52829D160FC006FF117 /* Debug */,
+				0278D52929D160FC006FF117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0278D52A29D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0278D52B29D160FC006FF117 /* Debug */,
+				0278D52C29D160FC006FF117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0278D52D29D160FC006FF117 /* Build configuration list for PBXNativeTarget "360play cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0278D52E29D160FC006FF117 /* Debug */,
+				0278D52F29D160FC006FF117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0278D4F529D160F8006FF117 /* Project object */;
+}

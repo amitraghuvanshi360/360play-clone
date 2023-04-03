@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "translate_image.xml",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
