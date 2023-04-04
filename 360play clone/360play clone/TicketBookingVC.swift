@@ -14,7 +14,6 @@ import iOSDropDown
 class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         
     //color code 5AAD30
-
     private var payment: Payment?
     private var paymentData: [Datum]? = []
 
@@ -23,7 +22,8 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
     private var game:Game?
     private var gameData: [gameType]? = []
-    
+
+    private var ticketDetails:[Ticket]?
     private var isGenderSelected:Bool = false
     @IBOutlet private weak var scrollView: UIScrollView!
     @IBOutlet private weak var nameTxtField: UITextField!
@@ -31,7 +31,6 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     @IBOutlet private weak var contactTxtField: UITextField!
     @IBOutlet private weak var additionalPhoneTxtField: UITextField!
     @IBOutlet private weak var qidTxtField: UITextField!
-    
     @IBOutlet private weak var maleSelectBttn: UIButton!
     @IBOutlet private weak var femaleSelectBttn: UIButton!
     @IBOutlet private weak var otherSelectionBttn: UIButton!
@@ -52,7 +51,7 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         scrollView?.delegate = self
         self.setCustomStyle()
-        navigationController?.isNavigationBarHidden = true  // to hide navigation bar
+        navigationController?.isNavigationBarHidden = false  // to hide navigation bar
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -197,7 +196,15 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
     @IBAction func proceedToNextAction(_ sender: Any) {
         print("Button Pressed")
+        
+        let userName = self.nameTxtField.text!
+        let userEmail = self.emailTxtField.text!
+        let userContact = self.contactTxtField.text!
+        let totalTickets = self.ticketCounter
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "TicketDataVC") as! TicketDataVC
+//        let data = self.ticketDetails?.append(contentsOf: userName)
+        
+        vc.ticketDetails = [Ticket(username: userName, email: userEmail, contact: userContact, duration: 4, servicetype: "family func", numberOfTickets: ticketCounter)]
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -205,10 +212,10 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     func checkCounterRange(counter: Int){
         if counter > 10 || counter <= 0 {
             self.ticketCounter = 0
-            self.totalTicketsLbl.text = "\(ticketCounter) Ticket"
+            self.totalTicketsLbl.text = "\(ticketCounter) TICKETS"
             return
         }else{
-            self.totalTicketsLbl.text = "\(self.ticketCounter) Ticket"
+            self.totalTicketsLbl.text = "\(self.ticketCounter) TICKETS"
         }
     }
     private func setRadioButtons(sender: UIButton) {

@@ -30,6 +30,7 @@
 		02EC4BF729D5AEA200126034 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF629D5AEA200126034 /* ExitViewController.swift */; };
 		02EC4BF929D5BA7000126034 /* AgeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BF829D5BA7000126034 /* AgeModel.swift */; };
 		02EC4BFB29D5BB5F00126034 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4BFA29D5BB5F00126034 /* GameModel.swift */; };
+		02FB959229DC2ACB00CC503F /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB959129DC2ACB00CC503F /* TicketData.swift */; };
 		8C56820AA0F3DB1E4532AEAD /* Pods_360play_clone_360play_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459B095F0720A2D2723E5245 /* Pods_360play_clone_360play_cloneUITests.framework */; };
 		BEA266C2746BA225AF5EA6AF /* Pods_360play_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B637900F03329E04082898C5 /* Pods_360play_cloneTests.framework */; };
 		EAC9C6E12F5048C6F56FF618 /* Pods_360play_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4703BD4F9D1018C87240EB /* Pods_360play_clone.framework */; };
@@ -80,6 +81,7 @@
 		02EC4BF629D5AEA200126034 /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
 		02EC4BF829D5BA7000126034 /* AgeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeModel.swift; sourceTree = "<group>"; };
 		02EC4BFA29D5BB5F00126034 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		02FB959129DC2ACB00CC503F /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
 		1B7C92971E4F073386676038 /* Pods-360play clone-360play cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone-360play cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8F41169E6A8CC3CF6FF5CD /* Pods-360play clone-360play cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360play clone-360play cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-360play clone-360play cloneUITests/Pods-360play clone-360play cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		459B095F0720A2D2723E5245 /* Pods_360play_clone_360play_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360play_clone_360play_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				02EC4BF829D5BA7000126034 /* AgeModel.swift */,
 				02EC4BFA29D5BB5F00126034 /* GameModel.swift */,
 				0244D34C29D6E4ED002822C3 /* UserAuthentication.swift */,
+				02FB959129DC2ACB00CC503F /* TicketData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				0235466629D416C000DC8F54 /* Constant.swift in Sources */,
 				02EC4BF529D5AE5800126034 /* EntryViewController.swift in Sources */,
 				0235466329D4131600DC8F54 /* APIManager.swift in Sources */,
+				02FB959229DC2ACB00CC503F /* TicketData.swift in Sources */,
 				025772B429D2C87600214213 /* CustomTabBarVC.swift in Sources */,
 				0278D50529D160F8006FF117 /* ViewController.swift in Sources */,
 				02EC4BF729D5AEA200126034 /* ExitViewController.swift in Sources */,
