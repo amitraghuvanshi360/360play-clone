@@ -9,7 +9,15 @@ import Foundation
 import UIKit
 import iOSDropDown
 
-
+enum Title: String{
+    case Name = "Name"
+    case Email = "Email"
+    case Contact = "Contact"
+    case Duration = "Duration"
+    case ServiceType = "Service Type"
+    case Tickets = "Tickets"
+    case CustomView = "CustomView"
+}
 
 class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         
@@ -22,8 +30,10 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
     private var game:Game?
     private var gameData: [gameType]? = []
+    private var gameIdData = [Int]()
 
     private var ticketDetails:[Ticket]?
+    private var titleData:String = ""
     private var isGenderSelected:Bool = false
     @IBOutlet private weak var scrollView: UIScrollView!
     @IBOutlet private weak var nameTxtField: UITextField!
@@ -34,6 +44,18 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     @IBOutlet private weak var maleSelectBttn: UIButton!
     @IBOutlet private weak var femaleSelectBttn: UIButton!
     @IBOutlet private weak var otherSelectionBttn: UIButton!
+    
+    @IBOutlet weak var subscriptionStackVw: UIStackView!
+    @IBOutlet weak var subscriptionView: UIView!
+    @IBOutlet weak var halfSubscription: UIButton!
+    @IBOutlet weak var hourSubscription: UIButton!
+    @IBOutlet weak var daySubscription: UIButton!
+    @IBOutlet weak var familySubscription: UIButton!
+    
+    @IBOutlet weak var halfSubscriptionLbl: UILabel!
+    @IBOutlet weak var hourSubscriptionLbl: UILabel!
+    @IBOutlet weak var daySubscriptionLbl: UILabel!
+    @IBOutlet weak var familySubscriptionLbl: UILabel!
     
     @IBOutlet private weak var paymentTextField: DropDown!
     @IBOutlet private weak var ageTextField: DropDown!
@@ -49,6 +71,7 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userId = UserDefaults.standard.object(forKey: "userID")
         scrollView?.delegate = self
         self.setCustomStyle()
         navigationController?.isNavigationBarHidden = false  // to hide navigation bar
@@ -65,19 +88,32 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
 //    MARK: Button layouts
     private func setCustomStyle(){
-        ticketCounterBtnn.layer.borderWidth = 2
-        continueBttn.layer.borderWidth = 2
+        self.ticketCounterBtnn.layer.borderWidth = 2
+        self.continueBttn.layer.borderWidth = 2
         
-        addTicketBttn.layer.borderWidth = 2
-        decrementTicketBttn.layer.borderWidth = 2
-
-        continueBttn.layer.cornerRadius = 25
+        self.addTicketBttn.layer.borderWidth = 2
+        self.decrementTicketBttn.layer.borderWidth = 2
         
-        ticketCounterBtnn.layer.borderColor = UIColor.lightText.cgColor
-        continueBttn.layer.borderColor = UIColor.lightText.cgColor
+      
 
-        addTicketBttn.layer.borderColor = UIColor.lightText.cgColor
-        decrementTicketBttn.layer.borderColor = UIColor.lightText.cgColor
+        self.continueBttn.layer.cornerRadius = 25
+        
+        self.ticketCounterBtnn.layer.borderColor = UIColor.lightText.cgColor
+        self.continueBttn.layer.borderColor = UIColor.lightText.cgColor
+
+        self.addTicketBttn.layer.borderColor = UIColor.lightText.cgColor
+        self.decrementTicketBttn.layer.borderColor = UIColor.lightText.cgColor
+        
+        self.halfSubscription.layer.borderColor  = UIColor.lightGray.cgColor
+        self.familySubscription.layer.borderColor = UIColor.lightGray.cgColor
+        self.daySubscription.layer.borderColor = UIColor.lightGray.cgColor
+        self.hourSubscription.layer.borderColor = UIColor.lightGray.cgColor
+        
+        self.halfSubscription.layer.borderWidth = 1
+        self.familySubscription.layer.borderWidth = 1
+        self.daySubscription.layer.borderWidth = 1
+        self.hourSubscription.layer.borderWidth = 1
+
     }
     
 //    MARK: Api call for paymentType
@@ -165,13 +201,31 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
     
         for (index, gamelist) in gameDataArray.enumerated() {
             self.gameTextField.optionArray.append(gamelist.name)
+            self.gameIdData.append(gamelist.id)
         }
         self.gameTextField.layer.borderWidth = 0
         self.gameTextField.didSelect{ [self](selectedText , index ,id) in
+            let gameid = self.gameIdData[index]
+            self.getGameSlotIndex(id: gameid , index: index)
         }
     }
     
+    private func getGameSlotIndex(id: Int , index: Int){
+        APIManager.getGameSlotRequest(gameId: id, completion: { data in
+            DispatchQueue.main.async {
+                self.setGameSlot(data: data , index: index)
+            }
+        })
+    }
     
+    
+    private func setGameSlot(data: GameSlot? , index: Int){
+        self.halfSubscriptionLbl.text = data?.data[0].description
+        self.hourSubscriptionLbl.text = data?.data[1].description
+        self.daySubscriptionLbl.text = data?.data[2].description
+        self.familySubscriptionLbl.text = data?.data[3].description
+        
+    }
     @IBAction func maleSelectionAction(_ sender: UIButton) {
         self.setRadioButtons(sender: sender)
         
@@ -194,22 +248,48 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         self.checkCounterRange(counter: self.ticketCounter)
     }
     
-    @IBAction func proceedToNextAction(_ sender: Any) {
-        print("Button Pressed")
-        
+    @IBAction func halfSubscriptionAction(_ sender: UIButton) {
+        self.selectSubscriptionChoice(sender: sender)
+    }
+    
+    @IBAction func hourSubscriptionAction(_ sender: UIButton) {
+        self.selectSubscriptionChoice(sender: sender)
+    }
+    @IBAction func daySubscriptionAction(_ sender: UIButton) {
+        self.selectSubscriptionChoice(sender: sender)
+    }
+    
+    @IBAction func familySubscriptionAction(_ sender: UIButton) {
+        self.selectSubscriptionChoice(sender: sender)
+    }
+    
+    @IBAction func proceedToNextAction(_ sender: UIButton) {
         let userName = self.nameTxtField.text!
         let userEmail = self.emailTxtField.text!
         let userContact = self.contactTxtField.text!
+        let duration = 60
         let totalTickets = self.ticketCounter
+        let senderTitle = self.titleData
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "TicketDataVC") as! TicketDataVC
-//        let data = self.ticketDetails?.append(contentsOf: userName)
         
-        vc.ticketDetails = [Ticket(username: userName, email: userEmail, contact: userContact, duration: 4, servicetype: "family func", numberOfTickets: ticketCounter)]
+        let dataObj : [Ticket] = [Ticket.init(title: Title.Name.rawValue, value: userName),
+                                  Ticket.init(title: Title.Email.rawValue, value: userEmail),
+                                  Ticket.init(title: Title.Contact.rawValue, value: userContact),
+                                  Ticket.init(title: Title.Duration.rawValue, value: String(duration)),
+                                  Ticket.init(title: Title.ServiceType.rawValue, value: senderTitle),
+                                  Ticket.init(title: Title.Tickets.rawValue, value: String(ticketCounter)),
+                                  Ticket.init(title: Title.CustomView.rawValue, value: "", dataType: 1)
+                                  
+        ]
+    
+        
+        vc.ticketDetailsArr = dataObj
+        vc.titleString = String( self.ticketCounter * duration)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     
-    func checkCounterRange(counter: Int){
+    private func checkCounterRange(counter: Int){
         if counter > 10 || counter <= 0 {
             self.ticketCounter = 0
             self.totalTicketsLbl.text = "\(ticketCounter) TICKETS"
@@ -218,14 +298,27 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
             self.totalTicketsLbl.text = "\(self.ticketCounter) TICKETS"
         }
     }
+    
+    private func selectSubscriptionChoice(sender: UIButton){
+        self.halfSubscription.backgroundColor = .none
+        self.hourSubscription.backgroundColor = .none
+        self.daySubscription.backgroundColor = .none
+        self.familySubscription.backgroundColor = .none
+        if sender.isSelected {
+            sender.backgroundColor = .white
+            sender.isSelected = false
+            self.titleData = sender.currentTitle ?? ""
+        }else{
+            sender.backgroundColor = .green
+            print(sender.isSelected)
+            self.titleData = sender.currentTitle ?? ""
+            sender.isSelected = true
+        }
+    }
     private func setRadioButtons(sender: UIButton) {
-        print(sender)
-        maleSelectBttn.isSelected = false
-        femaleSelectBttn.isSelected = false
-        otherSelectionBttn.isSelected = false
-        maleSelectBttn.setImage(UIImage(named: "unselected"), for: .normal)
-        femaleSelectBttn.setImage(UIImage(named: "unselected"), for: .normal)
-        otherSelectionBttn.setImage(UIImage(named: "unselected"), for: .normal)
+        self.maleSelectBttn.setImage(UIImage(named: "unselected"), for: .normal)
+        self.femaleSelectBttn.setImage(UIImage(named: "unselected"), for: .normal)
+        self.otherSelectionBttn.setImage(UIImage(named: "unselected"), for: .normal)
         if sender.isSelected == false {
             sender.setImage(UIImage(named: "genderselected"), for: .normal)
             sender.isSelected = false
@@ -235,4 +328,3 @@ class TicketBookingVc: UIViewController, UIScrollViewDelegate {
         }
     }
 }
-

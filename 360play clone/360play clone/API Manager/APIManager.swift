@@ -16,7 +16,7 @@ class APIManager{
     static let PAYMENT_TYPE = "/Service/List_Payment_Type"
     static let AGE_GROUP = "/Service/List_AgeGroup"
     static let LIST_GAMES = "/Service/ListGames"
-    static let GAME_SLOTS = "/Service/GetServiceOption?"
+    static let GAME_SLOTS = "/Service/GetServiceOption"
     static let USER_SIGNIN = "/User/SignIn"
     
     class func paymentTypeAPIRequest(completion: @escaping completionHandler){
@@ -132,8 +132,8 @@ class APIManager{
         }).resume()
     }
     
-    class func getGameSlotRequest(gameId: Int = 0){
-        let base_url = "\(Constant.BASE_URL)\(GAME_SLOTS)?\(gameId)"
+    class func getGameSlotRequest(gameId: Int, completion:@escaping (GameSlot?) -> Void){
+        let base_url = "\(Constant.BASE_URL)\(GAME_SLOTS)?gameId=\(gameId)"
         guard let url = URL.init(string: base_url) else {
             return
         }
@@ -148,8 +148,9 @@ class APIManager{
                 print("Error in Data")
                 return
             }
-            if let dataObj = try? JSONDecoder().decode(UserAuthentication.self, from: dataUnwarpped ) {
+            if let dataObj = try? JSONDecoder().decode(GameSlot.self, from: dataUnwarpped ) {
                 print(dataObj)
+                completion(dataObj)
             }
         }).resume()
     }

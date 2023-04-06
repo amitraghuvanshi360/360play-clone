@@ -6,32 +6,21 @@
 //
 
 import Foundation
+import UIKit
 
-
-struct Ticket{
-    var username:String
-    var email:String
-    var contact:String
-    var duration:Int
-    var servicetype:String
-    var numberOfTickets:Int
+// dataType = 0 -> normal cell
+// dataType = 1 -> CustomView
+class Ticket{
     
-    init(username: String, email: String, contact: String, duration: Int, servicetype: String, numberOfTickets: Int) {
-        self.username = username
-        self.email = email
-        self.contact = contact
-        self.duration = duration
-        self.servicetype = servicetype
-        self.numberOfTickets = numberOfTickets
+    var dataType: Int
+    var title: String
+    var value: String
+    
+    init(title: String, value: String, dataType: Int = 0) {
+        self.title = title
+        self.value = value
+        self.dataType = dataType
     }
+
 }
-enum Title: String{
-    case Name = "Name"
-    case Email = "Email"
-    case Contact = "Contact"
-    case ServiceType = "Service Type"
-    case Duration = "Duration"
-    case Tickets = "Tickets"
-    
-    static let titleData = [Name , Email , Contact, ServiceType , Duration, Tickets]
-}
+

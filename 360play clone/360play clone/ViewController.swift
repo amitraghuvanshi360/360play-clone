@@ -70,6 +70,7 @@ extension ViewController {
     private func setUserDefaultsData(email:String , id:Int){
         UserDefaults.standard.set(email, forKey: "userEmail")
         UserDefaults.standard.set(id, forKey: "userID")
+
     }
     
     private func navigateToNextVC(user: User) {
