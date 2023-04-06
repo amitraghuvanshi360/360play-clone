@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window1 = UIWindow.init(windowScene: windowScence)
         
         let userId = UserDefaults.standard.object(forKey: "userID")
-        
         if userId != nil {
             let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let mainViewController = storyboard.instantiateViewController(withIdentifier: "CustomTabBarVC")
